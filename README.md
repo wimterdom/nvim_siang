@@ -22,7 +22,7 @@ $ sudo
 $ nvim
 ```
 
-- type ':PlugInstall' in Neovim
+- type ' :PlugInstall ' in Neovim
 - Install npm plugin
 ```sh
 $ sudo npm install -g typescript typescript-language-server

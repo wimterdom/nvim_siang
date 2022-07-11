@@ -4,7 +4,8 @@
 ## prepare envirnoment
 ```sh
 $ sudo npm install tree-sitter-cli
-or $ sudo npm i tree-sitter-cli
+or 
+$ sudo npm i tree-sitter-cli
 $ sudo apt install -y luajit neovim
 ```
 - Install plugin manager: vim-plug

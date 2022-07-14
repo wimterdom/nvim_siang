@@ -26,6 +26,7 @@ set expandtab
 "let loaded_matchparen = 1
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
+set mouse=a
 
 " incremental substitution (neovim)
 if has('nvim')

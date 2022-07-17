@@ -6,8 +6,12 @@
 $ sudo npm install tree-sitter-cli
 or 
 $ sudo npm i tree-sitter-cli
-$ sudo apt install -y luajit neovim
+$ sudo apt install -y luajit
 ```
+- Install Neovim version 0.8
+> go to https://github.com/neovim/neovim/releases
+> download the latest version
+
 - Install plugin manager: vim-plug
 ```sh
 sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \

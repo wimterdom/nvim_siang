@@ -17,7 +17,11 @@ $ sudo apt install -y luajit
 sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-
+- Install Packer
+```sh
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
 ## Instsall plugin
 ```sh
 $ git clone the repo in the Home folder
@@ -26,7 +30,7 @@ $ sudo
 $ nvim
 ```
 
-- type ' :PlugInstall ' in Neovim
+- type ' :PlugInstall ' in Neovim or `:PackerInstall`
 - Install npm plugin
 ```sh
 $ sudo npm install -g typescript typescript-language-server

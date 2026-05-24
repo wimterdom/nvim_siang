@@ -37,6 +37,25 @@ You can get my setup on GitHub here:
 
 Okay, let's start setting up Neovim!
 
+## Install neovim
+```bash
+sudo apt install -y snapd
+sudo snap install nvim --classic
+```
+## Repair snap
+- Unmask the service: `sudo systemctl unmask snapd.service`
+- Enable on startup: `sudo systemctl enable --now snapd.socket`
+- Start the daemon: `sudo systemctl start snapd.service`
+
+### Reinstall snapd 
+- If the service still won't start, the installation may be corrupted.
+- Purge and Reinstall:
+```bash
+sudo apt autoremove --purge snapd
+sudo apt install snapd
+```
+
+
 # Set up LazyVim
 
 [**GitHub - LazyVim/LazyVim: Neovim config for the lazy**Neovim config for the lazy. Contribute to LazyVim/LazyVim development by creating an account on GitHub.**GitHubLazyVim**](https://github.com/LazyVim/LazyVim?ref=devas.life)

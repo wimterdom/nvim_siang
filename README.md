@@ -1,7 +1,7 @@
 # Nvim_2024
 
 
-![reference](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
+[reference](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
 
 ### 
 

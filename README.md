@@ -57,6 +57,8 @@ You get a bare nvim:
 
 ```bash
 brew install ripgrep fd
+or
+sudo apt install ripgrep fd-find
 ```
 
 ### Clone the starter

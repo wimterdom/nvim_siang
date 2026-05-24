@@ -42,6 +42,12 @@ Okay, let's start setting up Neovim!
 sudo apt install -y snapd
 sudo snap install nvim --classic
 ```
+### fix 
+- Command 'nvim' is available in '/snap/bin/nvim'
+- The command could not be located because '/snap/bin' is not included in the PATH environment variable.
+```bash
+export PATH=$PATH:/snap/bin
+```
 ## Repair snap
 - Unmask the service: `sudo systemctl unmask snapd.service`
 - Enable on startup: `sudo systemctl enable --now snapd.socket`

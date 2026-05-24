@@ -1,5 +1,8 @@
 # Nvim_2024
 
+
+![reference](https://www.devas.life/effective-neovim-setup-for-web-development-towards-2024/)
+
 ### 
 
 ![Effective Neovim setup for web development towards 2024](https://storage.ghost.io/c/d0/bc/d0bc0a46-ecd4-4f66-8377-998e00d2e3f7/content/images/size/w1200/2023/11/2023-11-01-Neovim-setup-for-lazy-people_02.jpg)
